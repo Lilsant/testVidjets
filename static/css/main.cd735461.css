@@ -1,5 +1,5 @@
-@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap);
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -70,12 +70,12 @@ code {
   width: 100%;
 }
 .circle__wrapper:after {
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   border-radius: 50%;
   content: "";
   display: inline-block;
   min-height: 85%;
-  opacity: 0.8;
+  opacity: 0.5;
   position: absolute;
   top: 1;
   width: 85%;
@@ -274,9 +274,10 @@ code {
   rotate: 0deg;
 }
 .circle-slider {
+  font-family: Montserrat, serif;
   position: relative;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
 }
-/*# sourceMappingURL=main.c3b8fcf1.css.map*/
+/*# sourceMappingURL=main.cd735461.css.map*/
